@@ -31,3 +31,5 @@
 
 z=lambda a,b:a+b
 print(z(10,15))
+
+#pip install flask
