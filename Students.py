@@ -1,6 +1,6 @@
 import sqlite3
 
-conn=sqlite3.connect("Students.sqlite3")
+conn=sqlite3.connect("Students1.sqlite3")
 cursor=conn.cursor()
 
 def hash(password):
@@ -64,19 +64,19 @@ class Students:
         print("Row Deleted Successfully !! ")
     
     
-# Std1=Students("Abcd","KTM",15,"Python")
-# Std1.createTable()  
-# Std1.insertData()  
-# Std2=Students("Pravhat","Chakarpath",19,"Time pass ")
-# Std2.insertData()
-# print("Before Update")
-# Students.listData()
-# print("After Update")
-# pravat=Students("Abcd","ashdvash",632,"aksdbasmd")
-# pravat.update(2,"Nitesh","KTM",18,"CSIT")
-# print("Before Deleting : ")
-# Students.listData()
-# paravat=Students("Asbd","asdnasd",15,"asdas")
-# paravat.delete(2)
-# print("After Deleting ")
-# Students.listData()
+Std1=Students("Abcd","KTM",15,"Python")
+Std1.createTable()  
+Std1.insertData()  
+Std2=Students("Pravhat","Chakarpath",19,"Time pass ")
+Std2.insertData()
+print("Before Update")
+Students.listData()
+print("After Update")
+pravat=Students("Abcd","ashdvash",632,"aksdbasmd")
+pravat.update(2,"Nitesh","KTM",18,"CSIT")
+print("Before Deleting : ")
+Students.listData()
+paravat=Students("Asbd","asdnasd",15,"asdas")
+paravat.delete(2)
+print("After Deleting ")
+Students.listData()
